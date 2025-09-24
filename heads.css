@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    background-color:#404A65;
+}
+
+h1{
+    color:#ECEDF0;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.option{
+    color:#ECEDF0;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top:20px;
+    margin-bottom:60px;
+}
+
+.coin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.coin.flip {
+    animation: coin-flip 0.8s cubic-bezier(0.4, 2.3, 0.6, 0.5);
+}
+
+@keyframes coin-flip {
+    0%   { transform: rotateY(0deg); }
+    50%  { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}
+
+.shadow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.heads{
+    text-align: center;
+    color:#ECEDF0;
+    margin-top: 66px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+button{
+    color:#ECEDF0;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: #1F6FB0;
+    padding:15px 30px 15px 30px;
+    border-radius: 8px;
+}
+
